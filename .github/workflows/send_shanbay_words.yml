@@ -2,6 +2,10 @@ name: Send shanbay today new words to telegram
 
 on:
   workflow_dispatch:
+    inputs:
+      message:
+        description: 'weather message'
+        required: false
   schedule:
     - cron: "0 0 * * *"
   push:
