@@ -26,7 +26,7 @@ jobs:
       - name: agu
         run: sudo apt-get update
       - name: Setup ffmpeg for differnt platforms 
-        uses: FedericoCarboni/setup-ffmpeg@ffmpeg-6.1-20231201
+        uses: FedericoCarboni/setup-ffmpeg@v2
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
